@@ -15,3 +15,4 @@ for team in league_table.find_all('tbody'):
         pl_points = row.find_all('td', class_='standing-table__cell')[9].text
         print(pl_team, pl_points)
 
+
